@@ -128,3 +128,33 @@ alt = OpenWeather
 Page not found!
 
 Go Home
+
+
+#---------- AIR QUALITY INDEX ----------#
+
+1
+Good
+Air quality is considered satisfactory, and air pollution poses little or no risk
+
+2
+Fair
+Air quality is acceptable; however, for some pollutants there may be a moderate health 
+concern for a very small number of people who are unusually sensitive to air pollution.
+
+3
+Moderate
+Members of sensitive groups may experience health effects. 
+The general public is not likely to be affected.
+
+4
+Poor
+Everyone may begin to experience health effects; members of sensitive groups may experience 
+more serious health effects.
+
+5
+very Poor
+Health warnings of emergency conditions. The entire population is 
+more likely to be affected.
+
+
+defauletLocation = #/weather?lat=51.5073219&lon=-0.1276474

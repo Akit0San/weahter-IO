@@ -2,10 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2023 codewithsadee
- */
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -363,6 +359,20 @@ body {
 .label-2 {
   font-size: var(--label-2);
 }
+
+.fade-in {
+  animation: fade-in 250ms ease forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
