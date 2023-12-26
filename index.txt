@@ -113,7 +113,6 @@ Friday
 
 #---------- FOOTER ----------#
 
-Copyright 2023 codewithsadee. All Right Reserved.
 
 Powered By
 https://openweathermap.org/api
@@ -157,4 +156,4 @@ Health warnings of emergency conditions. The entire population is
 more likely to be affected.
 
 
-defauletLocation = #/weather?lat=51.5073219&lon=-0.1276474
+defaultLocation = #/weather?lat=51.5073219&lon=-0.1276474

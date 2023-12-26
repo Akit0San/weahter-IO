@@ -1,9 +1,3 @@
-/**
- * @license MIT
- * @copyright codewithsadee 2023 All rights reserved
- * @author codewithsadee <mohammadsadee24@gmail.com>
- */
-
 "use strict";
 
 import { fetchData, url } from "./api.js";
@@ -96,7 +90,7 @@ const currentLocationBtn = document.querySelector(
 const errorContent = document.querySelector("[data-error-content]");
 
 /**
- * Reneder all weather data in html page
+ * Render all weather data in html page
  * @param {number} lat Latitude
  * @param {number} lon Longitude
  */
@@ -145,7 +139,7 @@ export const updateWeather = function (lat, lon) {
 
     card.innerHTML = `
     <h2 class="title-2 card-title">Now</h2>
-    <div class="weapper">
+    <div class="wrapper">
       <p class="heading">${parseInt(temp)}&deg;<sup>c</sup></p>
       <img src="./assets/images/weather_icons/${icon}.png"
                   width="64"

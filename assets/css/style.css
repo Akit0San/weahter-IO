@@ -519,7 +519,7 @@ body {
 
 main {
   height: calc(100vh - 80px);
-  height: calc(100svh - 80px); /* for moblie browser */
+  height: calc(100svh - 80px); /* for mobile browser */
   overflow: hidden;
 }
 
@@ -556,7 +556,7 @@ article.container::before {
   margin-block-end: 16px;
 }
 
-.current-weather-card .weapper {
+.current-weather-card .wrapper {
   margin-block: 12px;
   display: flex;
   gap: 8px;
@@ -900,7 +900,7 @@ article.container::before {
 
   main {
     height: calc(100vh - 96px);
-    height: calc(100svh - 96px); /* for moblie browser */
+    height: calc(100svh - 96px); /* for mobile browser */
   }
 
   article.container {
